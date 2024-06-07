@@ -1,0 +1,36 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 2;
+}
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+.navbar-left img {
+  width: 90px;
+}
+.navbar-middle {
+  display: flex;
+  align-items: center;
+}
+.navbar-middle ul {
+  display: flex;
+
+  list-style: none;
+  gap: 20px;
+}
+.navbar-middle ul li {
+  cursor: pointer;
+}
+.navbar-right {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
+.navbar-right img {
+  width: 20px;
+}
